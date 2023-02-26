@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Mono";
+}
+body {
+    background: #defdfd;
+}
+.container {
+    background: #defdfd;
+    margin: 100px auto;
+}
+
+.review {
+    height: 500px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 1px 1px 20px black;
+    position: relative;
+}
+.title {
+    margin-bottom: 50px;
+}
+.title > h2 {
+    text-transform: capitalize;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2em;
+}
+.underline {
+    height: 4px;
+    border-radius: 2px;
+    background: #65b2c5;
+    width: 70px;
+    margin: 5px auto;
+}
+ #person-img {
+    width: 150px;
+    border-radius: 75px;
+    position: absolute;
+ }
+
+.img-container {
+    margin: 10px auto 0 auto;
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+    background: #ffffff;
+    top: 20px;
+    box-shadow: 5px -5px 1px #529eb1;
+}
+.img-container > i {
+    text-align: center;
+    padding-top: 7px;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    color: #fff;
+    background: #529eb1;
+    z-index: 1; 
+}
+
+.info {
+    position: absolute;
+    top: 180px;
+    text-align: center;
+}
+h4 {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+p#job {
+    color: #529eb1;
+    text-transform: uppercase;
+}
+p#info {
+    padding: 20px;
+}
+.button-container > button {
+    background: #fff;
+}
+.button-container {
+    width: 120px;
+    margin: 250px auto 0 auto;
+    text-align: center;
+}
+.prev-btn, .next-btn {
+    width: 37px;
+    border: none;
+    color: #529eb1;
+    font-size: 1.2em;
+}
+.random-btn {
+    margin-top: 10px;
+    width: 110px;
+    height: 26px;
+    text-transform: capitalize;
+    color: #529eb1;
+    border-radius: 5px;
+    border: 1px solid #529eb1;
+}
+@media screen and (min-width: 900px) {
+    .container {
+        width: 600px;
+    }
+}
