@@ -4,21 +4,21 @@ const reviews = [
         id: 1,
         name: "Fernando Alonso",
         job: "Driver",
-        img: "img/foto_3.png",
+        img: "foto_3.png",
         text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, ratione. Quos similique magni asperiores eius facilis perspiciatis accusantium dolor fugit voluptate aperiam ut quo tempora quam, neque omnis fugiat nam."
     },
     {
         id: 2,
         name: "pepe",
         job: "football player",
-        img: "img/foto_2.png",
+        img: "foto_2.png",
         text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, ratione. Quos similique magni asperiores eius facilis perspiciatis accusantium dolor fugit voluptate aperiam ut quo tempora quam, neque omnis fugiat nam."
     },
     {
         id: 3,
         name: "macarena",
         job: "singer",
-        img: "img/foto_1.jpg",
+        img: "foto_1.jpg",
         text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, ratione. Quos similique magni asperiores eius facilis perspiciatis accusantium dolor fugit voluptate aperiam ut quo tempora quam, neque omnis fugiat nam."
     }
 ];
